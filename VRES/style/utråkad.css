@@ -1,0 +1,97 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#Wrap {
+   width: 100%;
+   margin: 0 auto;
+}
+
+header {
+   display: grid;
+   grid-template-columns: 150px 1fr 150px;
+}
+
+nav ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+   list-style-type: none;
+   height: 150px;
+}
+
+nav a {
+   text-decoration: none;
+   font-size: 18px;
+   color: black;
+}
+
+nav a:hover {
+   text-decoration: none;
+   color: red;
+}
+
+#Login a {
+   font-size: 18px;
+   padding: 12px 26px;
+   border-radius: 32px;
+   transition-duration: 0.4s;
+}
+
+#Login a:hover {
+   color: white;
+   background-color: blue;
+}
+
+h1 {
+   font-size: 100px;
+   margin-left: 20px;
+}
+
+h2 {
+   margin-left: 20px;
+   font-size: 40px;
+}
+
+p {
+   margin-left: 20px;
+   max-width: 400px;
+}
+
+.space {
+   margin: 40px;
+}
+
+#hud1 a {
+   font-size: 18px;
+   padding: 12px 26px;
+   border-radius: 32px;
+   transition-duration: 0.4s;
+   text-decoration: none;
+}
+
+#hud1 a:hover {
+   color: white;
+   background-color: blue;
+}
+
+main a {
+   margin-left: 20px;
+   font-size: 18px;
+   padding: 12px 26px;
+   border-radius: 32px;
+   transition-duration: 0.4s;
+   text-decoration: none;
+}
+
+main a:hover {
+   color: white;
+   background-color: blue;
+}
